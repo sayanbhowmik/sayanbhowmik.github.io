@@ -3,12 +3,15 @@ import Typography from "@mui/material/Typography";
 import pageContent from "@/data/pageContent.json";
 import Stack from "@mui/material/Stack";
 import CircularImage from '@/components/CircularImage';
-import Divider from "@mui/material/Divider";
 
 const Introduction = () => {
     return (
         <>
-            <Stack spacing={4} direction={"row"}>
+            <Stack spacing={4} direction={{
+                xs: "column",   // mobile → vertical
+                sm: "row",      // tablet → horizontal
+                md: "row",      // desktop → horizontal
+            }} alignItems={"center"}>
                 <CircularImage
                     src={`/images/${pageContent.introduction.image}`}
                     alt="Profile Picture"

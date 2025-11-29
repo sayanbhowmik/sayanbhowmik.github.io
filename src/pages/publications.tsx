@@ -5,9 +5,11 @@ import publicationsContent from "@/data/publicationsContent.json";
 import Section from "@/components/Section";
 import Publication from "@/components/Publication";
 import Quote from "@/components/Quote";
+import Typography from "@mui/material/Typography";
+import Divider from "@mui/material/Divider";
 
 const publications = () => {
-    const publicationsList = publicationsContent.publications;
+    const publicationsMap = publicationsContent.publications;
 
     return (
         <>
@@ -24,9 +26,31 @@ const publications = () => {
                 />
                 <Section title="Publications" id="publications">
                     <Stack spacing={4}>
-                        {publicationsList.map((pub, index) => (
-                            <Publication key={index} publication={pub} />
-                        ))}
+                        {Object.entries(publicationsMap).map(
+                            ([degree, publicationsList]) => (
+                                <>
+                                    <Divider textAlign="center" sx={{ my: 2 }}>
+                                        <Typography variant="h6" sx={{ px: 2 }}>
+                                            {degree}
+                                        </Typography>
+                                    </Divider>
+
+                                    {publicationsList.map((pub, index) => (
+                                        <>
+                                            <Publication publication={pub} />
+
+                                            {index !== publicationsList.length - 1 && (
+                                                <Divider
+                                                    orientation="horizontal"
+                                                    flexItem
+                                                    sx={{ borderRightWidth: 2, mb: 4 }}
+                                                />
+                                            )}
+                                        </>
+                                    ))}
+                                </>
+                            )
+                        )}
                     </Stack>
                 </Section>
 

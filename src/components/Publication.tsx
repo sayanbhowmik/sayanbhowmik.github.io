@@ -1,5 +1,4 @@
 import React from "react";
-import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import Box from "@mui/material/Box";
@@ -19,8 +18,6 @@ interface PublicationProps {
 const Publication = ({ publication }: PublicationProps) => {
     return (
         <>
-            <Divider orientation="horizontal" flexItem sx={{ borderRightWidth: 2, mb: 4 }} />
-
             <Stack spacing={3}>
                 {/* Title + authors row */}
                 <Typography

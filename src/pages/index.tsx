@@ -14,34 +14,30 @@ import pageContent from "@/data/pageContent.json";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Toolbar />
-      <Box component="main" >
-        <Stack
-          sx={{
-            display: "flex",
-            justifyContent: "center", // Center horizontally
-          }}
-          id="home"
-        >
-          <TopBanner image={pageContent.banner.image} height={600} />
-          <Section title="Introduction" id="introduction">
-            <Introduction />
-          </Section>
+      <Stack
+        sx={{
+          display: "flex",
+          justifyContent: "center", // Center horizontally
+        }}
+        id="home"
+      >
+        <TopBanner image={pageContent.banner.image} height={600} />
+        <Section title="Introduction" id="introduction">
+          <Introduction />
+        </Section>
 
-          <Section title="Areas of Research" id="areas-of-research">
-            <ResearchAreas />
-          </Section>
+        <Section title="Areas of Research" id="areas-of-research">
+          <ResearchAreas />
+        </Section>
 
-          <Section title="" id="">
-            <Quote />
-          </Section>
+        <Section title="" id="">
+          <Quote />
+        </Section>
 
-          <Section title="" id="contact">
-            <Contact />
-          </Section>
-        </Stack>
-      </Box>
+        <Section title="" id="contact">
+          <Contact />
+        </Section>
+      </Stack>
     </>
   );
 }

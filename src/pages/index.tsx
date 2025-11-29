@@ -8,6 +8,7 @@ import Introduction from "@/sections/Introduction";
 import ResearchAreas from "@/sections/ResearchAreas";
 import Quote from "@/sections/Quote";
 import Contact from "@/sections/Contact";
+import TopBanner from "@/components/TopBanner";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
           }}
           id="home"
         >
-
+          <TopBanner image="banner3.jpg" height={600} />
           <Section title="Introduction" id="introduction">
             <Introduction />
           </Section>

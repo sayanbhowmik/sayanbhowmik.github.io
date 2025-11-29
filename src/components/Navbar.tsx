@@ -28,14 +28,15 @@ const Navbar: React.FC<NavbarProps> = () => {
     };
 
     const navMenu = [
-        { name: "Home", id: "home" },
+        { name: "Home", path: "#home" },
+        { name: "Contact", path: "#contact" },
     ];
 
     return (
         <>
             <AppBar
                 position="fixed"
-                style={{ backgroundColor: "#ffffff", boxShadow: "none", paddingLeft: 100 }}
+                style={{ backgroundColor: "#ffffffff", boxShadow: "none", paddingLeft: 100 }}
             >
                 <Toolbar
                     style={{
@@ -61,7 +62,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                     {!isMobile && (
                         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
                             {navMenu.map((label, index) => (
-                                <Button key={index} color="primary" href={`#${label.id}`}>
+                                <Button key={index} color="primary" href={`${label.path}`}>
                                     {label.name}
                                 </Button>
                             ))}
@@ -89,7 +90,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                                 key={label.name}
                                 onClick={handleMenuClose}
                                 component="a"
-                                href={`#${label.id}`}
+                                href={`${label.path}`}
                             >
                                 {label.name}
                             </MenuItem>

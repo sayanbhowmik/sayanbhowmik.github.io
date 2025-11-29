@@ -4,6 +4,7 @@ import TopBanner from "@/components/TopBanner";
 import publicationsContent from "@/data/publicationsContent.json";
 import Section from "@/components/Section";
 import Publication from "@/components/Publication";
+import Quote from "@/components/Quote";
 
 const publications = () => {
     const publicationsList = publicationsContent.publications;
@@ -27,6 +28,13 @@ const publications = () => {
                             <Publication key={index} publication={pub} />
                         ))}
                     </Stack>
+                </Section>
+
+                <Section title="" id="">
+                    <Quote
+                        quote={publicationsContent.quote.text}
+                        author={publicationsContent.quote.author}
+                    />
                 </Section>
             </Stack>
         </>

@@ -1,5 +1,9 @@
 {
     "bannerImagePath": "publications-banner.jpg",
+    "quote": {
+        "text": "Science is a way of thinking much more than it is a body of knowledge.",
+        "author": "Carl Sagan"
+    },
     "publications": [
         {
             "title": "Research Paper Title 1",

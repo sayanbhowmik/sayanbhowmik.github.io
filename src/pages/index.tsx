@@ -33,10 +33,6 @@ export default function Home() {
             author={pageContent.quote.author}
           />
         </Section>
-
-        <Section title="" id="contact">
-          <Contact />
-        </Section>
       </Stack>
     </>
   );

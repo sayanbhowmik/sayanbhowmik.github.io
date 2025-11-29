@@ -1,7 +1,7 @@
 {
   "items": [
     { "name": "Home", "path": "/#home" },
-    { "name": "Contact", "path": "/#contact" },
+    { "name": "Contact", "path": "#contact" },
     { "name": "Publications", "path": "/publications" }
   ]
 }

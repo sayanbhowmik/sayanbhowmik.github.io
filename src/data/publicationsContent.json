@@ -1,0 +1,37 @@
+{
+    "bannerImagePath": "publications-banner.jpg",
+    "publications": [
+        {
+            "title": "Research Paper Title 1",
+            "authors": "Author A, Author B",
+            "doi": "10.1021/acs.jpclett.2c02100",
+            "link": "https://example.com/paper1",
+            "image": "publication1.jpg",
+            "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        },
+        {
+            "title": "Research Paper Title 1",
+            "authors": "Author A, Author B",
+            "doi": "10.1021/acs.jpclett.2c02100",
+            "link": "https://example.com/paper1",
+            "image": "publication1.jpg",
+            "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        },
+        {
+            "title": "Research Paper Title 1",
+            "authors": "Author A, Author B",
+            "doi": "10.1021/acs.jpclett.2c02100",
+            "link": "https://example.com/paper1",
+            "image": "publication1.jpg",
+            "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        },
+        {
+            "title": "Research Paper Title 1",
+            "authors": "Author A, Author B",
+            "doi": "10.1021/acs.jpclett.2c02100",
+            "link": "https://example.com/paper1",
+            "image": "publication1.jpg",
+            "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        }
+    ]
+}

@@ -5,6 +5,7 @@ import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
 import Section from "@/components/Section";
 import Introduction from "@/sections/Introduction";
+import ResearchAreas from "@/sections/ResearchAreas";
 
 export default function Home() {
   return (
@@ -22,6 +23,10 @@ export default function Home() {
 
           <Section title="Introduction" id="introduction">
             <Introduction />
+          </Section>
+
+          <Section title="Areas Of Research" id="areas-of-research">
+            <ResearchAreas />
           </Section>
         </Stack>
       </Box>

@@ -30,17 +30,6 @@ const TopBanner = (props: TopBannerProps) => {
                         objectFit: "cover"
                     }}
                 />
-
-                {/* Bottom Gradient Overlay */}
-                <Box
-                    sx={{
-                        position: "absolute",
-                        bottom: 0,
-                        width: "100%",
-                        height: "50%", // control fade height
-                        background: "linear-gradient(to top, #b5e3f1ff 0%, transparent 100%)",
-                    }}
-                />
             </Box>
         </>
     );

@@ -19,8 +19,6 @@ const Section: React.FC<SectionProps> = ({ title, children, id }) => {
                 sx={{
                     alignItems: "center",
                     justifyContent: "center",
-                    backgroundColor: "#d1e7eeff",
-                    background: `linear-gradient(90deg, #d1e7eeff 30%, #aedeecff 90%)`,
                     padding: 2,
                 }}
                 id={id}

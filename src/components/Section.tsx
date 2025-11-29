@@ -24,7 +24,7 @@ const Section: React.FC<SectionProps> = ({ title, children, id }) => {
                 id={id}
             >
                 <Typography
-                    variant="h5"
+                    variant="h4"
                     sx={{
                         paddingLeft: "0.9rem",
                         listStyleType: '"◈ "',

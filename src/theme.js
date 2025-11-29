@@ -40,6 +40,22 @@ const theme = createTheme({
         subtitle2: {
             fontWeight: 300, // Bold (you can use a number or string like 'bold')
         },
+        subtitle1: {
+            fontWeight: 600, // Bold (you can use a number or string like 'bold')
+            textTransform: "uppercase",
+        },
+        h2: {
+            fontWeight: 600,
+            textTransform: "small-caps",
+            fontFamily: '"Lora", serif',
+            fontStyle: "italic"
+        },
+        h4: {
+            fontWeight: 600,
+            fontSize: "1.5rem",
+            textTransform: "small-caps",
+            fontFamily: '"Georgia", "Times New Roman", serif',
+        },
         h5: {
             fontWeight: 400, // Bold (you can use a number or string like 'bold')
         },

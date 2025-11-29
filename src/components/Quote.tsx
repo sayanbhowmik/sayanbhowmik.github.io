@@ -28,7 +28,7 @@ const Quote = ({ quote, author }: QuoteProps) => {
                     {`"${quote}"`}
                 </Typography>
 
-                <Typography variant="button">{`- ${author}`}</Typography>
+                <Typography variant="subtitle1">{`- ${author}`}</Typography>
             </Stack>
         </>
     );

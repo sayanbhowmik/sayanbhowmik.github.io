@@ -1,7 +1,5 @@
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import React from "react";
-import pageContent from "@/data/pageContent.json";
 
 interface TopBannerProps {
     image: string;

@@ -4,7 +4,6 @@ import Section from "@/components/Section";
 import Introduction from "@/sections/Introduction";
 import ResearchAreas from "@/sections/ResearchAreas";
 import Quote from "@/components/Quote";
-import Contact from "@/sections/Contact";
 import TopBanner from "@/components/TopBanner";
 import pageContent from "@/data/pageContent.json";
 

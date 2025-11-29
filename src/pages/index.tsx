@@ -3,6 +3,9 @@ import Navbar from "@/components/Navbar";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Toolbar from "@mui/material/Toolbar";
+import Section from "@/components/Section";
+import Introduction from "@/sections/Introduction";
+
 export default function Home() {
   return (
     <>
@@ -16,7 +19,10 @@ export default function Home() {
           }}
           id="home"
         >
-          <h1 className="hidden">Sayan Bhowmik Portfolio</h1>
+
+          <Section title="Introduction" id="rooms">
+            <Introduction />
+          </Section>
         </Stack>
       </Box>
     </>

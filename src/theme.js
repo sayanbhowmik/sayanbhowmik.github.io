@@ -38,7 +38,9 @@ const theme = createTheme({
     typography: {
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
         subtitle2: {
-            fontWeight: 300, // Bold (you can use a number or string like 'bold')
+            fontWeight: "bold", // Bold (you can use a number or string like 'bold')
+            fontStyle: "italic",
+            color: "#01172cff"
         },
         subtitle1: {
             fontWeight: 600, // Bold (you can use a number or string like 'bold')
@@ -57,7 +59,8 @@ const theme = createTheme({
             fontFamily: '"Georgia", "Times New Roman", serif',
         },
         h5: {
-            fontWeight: 400, // Bold (you can use a number or string like 'bold')
+            fontWeight: 500, // Bold (you can use a number or string like 'bold')
+            color: "#012546ff",
         },
         allVariants: {
             color: "#204f5e",

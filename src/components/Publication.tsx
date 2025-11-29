@@ -26,7 +26,7 @@ const Publication = ({ publication }: PublicationProps) => {
                 <Typography
                     component={Link}
                     href={publication.link}
-                    sx={{ textDecoration: "none", color: "inherit", "&:hover": { textDecoration: "underline" } }}
+                    sx={{ textDecoration: "none", "&:hover": { textDecoration: "underline" } }}
                     variant="h5"
                 >
                     {publication.title}

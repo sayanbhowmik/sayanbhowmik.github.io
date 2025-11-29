@@ -9,6 +9,7 @@ import ResearchAreas from "@/sections/ResearchAreas";
 import Quote from "@/sections/Quote";
 import Contact from "@/sections/Contact";
 import TopBanner from "@/components/TopBanner";
+import pageContent from "@/data/pageContent.json";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
           }}
           id="home"
         >
-          <TopBanner image="banner3.jpg" height={600} />
+          <TopBanner image={pageContent.banner.image} height={600} />
           <Section title="Introduction" id="introduction">
             <Introduction />
           </Section>

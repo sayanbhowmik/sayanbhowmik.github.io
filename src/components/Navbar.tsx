@@ -9,6 +9,7 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import MenuIcon from "@mui/icons-material/Menu";
+import navbarContent from "@/data/navbarContent.json";
 
 interface NavbarProps {
     children?: React.ReactNode;
@@ -27,10 +28,7 @@ const Navbar: React.FC<NavbarProps> = () => {
         setAnchorEl(null);
     };
 
-    const navMenu = [
-        { name: "Home", path: "#home" },
-        { name: "Contact", path: "#contact" },
-    ];
+    const navMenu = navbarContent.items;
 
     return (
         <>

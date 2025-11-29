@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "name": "Home", "path": "/#home" },
+    { "name": "Contact", "path": "/#contact" }
+  ]
+}

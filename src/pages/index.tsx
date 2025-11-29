@@ -20,7 +20,7 @@ export default function Home() {
           id="home"
         >
 
-          <Section title="Introduction" id="rooms">
+          <Section title="Introduction" id="introduction">
             <Introduction />
           </Section>
         </Stack>

@@ -1,4 +1,5 @@
-import { useTheme } from "@mui/material";
+import { useTheme } from '@mui/material';
+import Box from '@mui/material/Box';
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import React from "react";
@@ -39,7 +40,16 @@ const Section: React.FC<SectionProps> = ({ title, children, id }) => {
                 >
                     {title}
                 </Typography>
-                {children}
+                <Box
+                    sx={{
+                        maxWidth: "900px",
+                        width: "100%",
+                        margin: "0 auto",
+                        textAlign: "justify",
+                    }}
+                >
+                    {children}
+                </Box>
             </Stack>
         </>
     );

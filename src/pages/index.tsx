@@ -3,7 +3,7 @@ import Stack from "@mui/material/Stack";
 import Section from "@/components/Section";
 import Introduction from "@/sections/Introduction";
 import ResearchAreas from "@/sections/ResearchAreas";
-import Quote from "@/sections/Quote";
+import Quote from "@/components/Quote";
 import Contact from "@/sections/Contact";
 import TopBanner from "@/components/TopBanner";
 import pageContent from "@/data/pageContent.json";
@@ -28,7 +28,10 @@ export default function Home() {
         </Section>
 
         <Section title="" id="">
-          <Quote />
+          <Quote
+            quote={pageContent.quote.text}
+            author={pageContent.quote.author}
+          />
         </Section>
 
         <Section title="" id="contact">

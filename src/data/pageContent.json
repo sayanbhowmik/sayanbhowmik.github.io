@@ -21,5 +21,13 @@
     "quote": {
         "text": "The only way to do great work is to love what you do.",
         "author": "Steve Jobs"
+    },
+    "contact": {
+        "logo": "gatech-logo.png.webp",
+        "info": {
+            "email": "sayanb@chbe.gatech.edu",
+            "phone": "+1 (123) 456-7890",
+            "address": "Ford ES&T Building, 311 Ferst Drive NW Atlanta, GA 30332"
+        }
     }
 }

@@ -7,6 +7,7 @@ import Section from "@/components/Section";
 import Introduction from "@/sections/Introduction";
 import ResearchAreas from "@/sections/ResearchAreas";
 import Quote from "@/sections/Quote";
+import Contact from "@/sections/Contact";
 
 export default function Home() {
   return (
@@ -26,12 +27,16 @@ export default function Home() {
             <Introduction />
           </Section>
 
-          <Section title="Areas Of Research" id="areas-of-research">
+          <Section title="Areas of Research" id="areas-of-research">
             <ResearchAreas />
           </Section>
 
           <Section title="" id="">
             <Quote />
+          </Section>
+
+          <Section title="" id="contact">
+            <Contact />
           </Section>
         </Stack>
       </Box>

@@ -1,78 +1,70 @@
 {
   "bannerImagePath": "publications-banner.jpg",
   "quote": {
-    "text": "Science is a way of thinking much more than it is a body of knowledge.",
-    "author": "Carl Sagan"
+    "text": "Nothing is so dangerous to the progress of the human mind than to assume that our views of science are ultimate, that there are no mysteries in nature, that our triumphs are complete and that there are no new worlds to conquer.",
+    "author": "Humphry Davy"
   },
   "publications": {
     "PhD": [
       {
-        "title": "Research Paper Title 1",
-        "authors": "Gabriel S.Gusmão, Adhika P. Retnanto, Shashwati C. daCunha, Andrew J. Medford; Cat. Today (2022)",
-        "doi": "10.1016/j.cattod.2022.04.002",
-        "link": "https://example.com/paper1",
-        "image": "publication1.jpg",
-        "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        "title": "Real-space Hubbard-corrected density functional theory",
+        "authors": "Sayan Bhowmik, Andrew J. Medford, Phanish Suryanarayana; J. Chem. Phys. (accepted)",
+        "doi": "https://doi.org/10.48550/arXiv.2507.23612",
+        "link": "https://arxiv.org/abs/2507.23612",
+        "image": "Scaling_hubbard_dft.png",
+        "abstract": "We present an accurate and efficient framework for real-space Hubbard-corrected density functional theory. In particular, we obtain expressions for the energy, atomic forces, and stress tensor suitable for real-space finite-difference discretization, and develop a large-scale parallel implementation. We verify the accuracy of the formalism through comparisons with established planewave results. We demonstrate that the implementation is highly efficient and scalable, outperforming established planewave codes by more than an order of magnitude in minimum time to solution, with increasing advantages as the system size and/or number of processors is increased. We apply this framework to examine the impact of exchange-correlation inconsistency in local atomic orbital generation and introduce a scheme for optimizing the Hubbard parameter based on hybrid functionals, both while studying TiO\u2082 polymorphs."
       },
       {
-        "title": "Research Paper Title 1",
-        "authors": "Gabriel S.Gusmão, Adhika P. Retnanto, Shashwati C. daCunha, Andrew J. Medford; Cat. Today (2022)",
-        "doi": "10.1016/j.cattod.2022.04.002",
-        "link": "https://example.com/paper1",
-        "image": "publication1.jpg",
-        "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        "title": "Ab initio study of strain-driven vacancy clustering in aluminum",
+        "authors": "Sayan Bhowmik, Abhiraj Sharma, Andrew J. Medford, John E. Pask, Phanish Suryanarayana; Phys. Rev. B (2025)",
+        "doi": "https://doi.org/10.1103/97k3-sfyw",
+        "link": "https://journals.aps.org/prb/abstract/10.1103/97k3-sfyw",
+        "image": "prb_aluminum.png",
+        "abstract": "We present a first-principles investigation of strain-driven vacancy clustering in aluminum. Specifically, we perform Kohn-Sham density functional theory calculations to study the influence of hydrostatic strains on clustering in tri-, quad-, and heptavacancies. We find that compressive strains are a key driving force for vacancy aggregation, particularly for collapse of clusters on the (111) plane, consistent with prior experimental observations of vacancy clusters on this plane. Notably, we find that the heptavacancy on the (111) plane collapses to form a prismatic dislocation loop for hydrostatic compressive strains exceeding 5%, highlighting the critical role of such strains in prismatic dislocation loop nucleation in aluminum."
       },
       {
-        "title": "Research Paper Title 1",
-        "authors": "Gabriel S.Gusmão, Adhika P. Retnanto, Shashwati C. daCunha, Andrew J. Medford; Cat. Today (2022)",
-        "doi": "10.1016/j.cattod.2022.04.002",
-        "link": "https://example.com/paper1",
-        "image": "publication1.jpg",
-        "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
-      },
-      {
-        "title": "Research Paper Title 1",
-        "authors": "Gabriel S.Gusmão, Adhika P. Retnanto, Shashwati C. daCunha, Andrew J. Medford; Cat. Today (2022)",
-        "doi": "10.1016/j.cattod.2022.04.002",
-        "link": "https://example.com/paper1",
-        "image": "publication1.jpg",
-        "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        "title": "Spectral scheme for atomic structure calculations in density functional theory",
+        "authors": "Sayan Bhowmik, John E. Pask, Andrew J. Medford, Phanish Suryanarayana; Comput. Phys. Commun. (2024)",
+        "doi": "https://doi.org/10.1016/j.cpc.2024.109448",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0010465524003710",
+        "image": "sparc-atom.jpg",
+        "abstract": "We present a spectral scheme for atomic structure calculations in pseudopotential Kohn-Sham density functional theory. In particular, after applying an exponential transformation of the radial coordinates, we employ global polynomial interpolation on a Chebyshev grid, with derivative operators approximated using the Chebyshev differentiation matrix, and integrations using Clenshaw-Curtis quadrature. We demonstrate the accuracy and efficiency of the scheme through spin-polarized and unpolarized calculations for representative atoms, while considering local, semilocal, and hybrid exchange-correlation functionals. In particular, we find that O(200) grid points are sufficient to achieve an accuracy of 1 microhartree in the eigenvalues for optimized norm conserving Vanderbilt pseudopotentials spanning the periodic table from atomic number Z=1 to 83."
       }
     ],
     "Masters": [
       {
-        "title": "Research Paper Title 1",
-        "authors": "Gabriel S.Gusmão, Adhika P. Retnanto, Shashwati C. daCunha, Andrew J. Medford; Cat. Today (2022)",
-        "doi": "10.1016/j.cattod.2022.04.002",
-        "link": "https://example.com/paper1",
-        "image": "publication1.jpg",
-        "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        "title": "Size and Chemical Environment Control Nanopore Geometry in 2D MoS\u2082: From Irregular to Triangular Defects",
+        "authors": "Sayan Bhowmik, Ananth Govind Rajan; Small, Wiley (2025)",
+        "doi": "https://doi.org/10.1002/smll.202504611",
+        "link": "https://onlinelibrary.wiley.com/doi/10.1002/smll.202504611",
+        "image": "TOC_graphic_mos2_small.jpg",
+        "abstract": "Defects in 2D transition metal dichalcogenides (TMDs), such as molybdenum disulfide (MoS\u2082), can modulate their optoelectronic and membrane properties. Increased structural complexity and a quasi-2D nature complicate the study of extended defects in MoS2. To address this knowledge gap, coordination-dependent atomic fingerprints are advanced for undercoordinated atoms in TMDs, enabling the cataloging of nanopore isomers in MoS\u2082. Combining the introduced fingerprints with extensive density functional theory calculations of etching energies, stochastic kinetic Monte Carlo simulations of defect formation, and chemical graph theory for distinguishing nanopore shapes, predicts the most probable nanopores in MoS\u2082. A range of size-dependent topologies are revealed from elongated to perfectly triangular, where smaller defects are irregular, while larger ones are more symmetric, exhibiting qualitative agreement with experiments. Moving toward a sulfur-rich chemical environment slows down the growth of larger pores and makes them perfectly triangular, providing an experimental route to control nanopore synthesis. The size-dependent structural order in MoS\u2082 nanopores elucidated here will enable precise control over the defect shape and size distribution in the material for various application areas, including seawater desalination, gas separations, DNA sequencing, and optoelectronic devices."
       },
       {
-        "title": "Research Paper Title 1",
-        "authors": "Gabriel S.Gusmão, Adhika P. Retnanto, Shashwati C. daCunha, Andrew J. Medford; Cat. Today (2022)",
-        "doi": "10.1016/j.cattod.2022.04.002",
-        "link": "https://example.com/paper1",
-        "image": "publication1.jpg",
-        "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        "title": "Role of Chemical Etching in the Nucleation of Nanopores in 2D MoS\u2082: Insights from First-Principles Calculations",
+        "authors": "Sayan Bhowmik, Jamie H. Warner, Ananth Govind Rajan; J. Phys. Chem. C (2023)",
+        "doi": "https://doi.org/10.1021/acs.jpcc.2c08622",
+        "link": "https://pubs.acs.org/doi/10.1021/acs.jpcc.2c08622",
+        "image": "jpcc_mos2_abstract.jpeg",
+        "abstract": "Nanoscale devices made using two-dimensional (2D) materials, including transition-metal dichalcogenides (TMDs) such as molybdenum disulfide (MoS\u2082), are currently being explored for various applications, e.g., optoelectronic devices, water desalination membranes, and DNA sequencing. In such applications, defects and nanopores play a key role in modulating the 2D material’s physicochemical properties, e.g., the band gap, chemical reactivity, catalytic activity, and molecular/ionic permeation rate. However, there exists a lack of a fundamental understanding of nanopore formation in TMDs, especially MoS\u2082. In this work, we elucidate the mechanism of nanopore formation in 2D MoS\u2082 using an extensive set of first-principles density functional theory (DFT) calculations. We calculate the energies of etching of atoms using DFT and use Marcus theory for atom-transfer reactions to convert the energies to activation barriers. We postulate the role of silicon as an etchant and show that the MoS\u2086 vacancy can be a potential nucleation site for the growth of nanopores in MoS\u2082. By fitting our kinetic predictions to experimental microscopy data on the formation time of a MoS\u2086 vacancy, we show that the intrinsic barrier for the etching of atoms in MoS\u2082, as described by Marcus theory, is 0.228 eV in the presence of silicon atoms. We find that the slowest step in the formation of the MoS\u2086 vacancy is the step leading from a S\u2085 vacancy to a S\u2086 vacancy, with an activation barrier of ∼0.85 eV. This allows atoms to be etched at close to room-temperature conditions (27 °C) under the action of an electron beam that can move around the silicon etchant atoms. Using this new understanding of the nanopore formation process, researchers will be able to accurately model the controlled fabrication of nanopores in 2D MoS\u2082."
+      },
+      {
+        "title": "Chemical vapor deposition of 2D materials: A review of modeling, simulation, and machine learning studies",
+        "authors": "Sayan Bhowmik, Ananth Govind Rajan; iScience (2022)",
+        "doi": "https://doi.org/10.1016/j.isci.2022.103832",
+        "link": "https://www.cell.com/iscience/fulltext/S2589-0042(22)00102-X",
+        "image": "cvd_review_iscience.jpg",
+        "abstract": "Chemical vapor deposition (CVD) is extensively used to produce large-area two-dimensional (2D) materials. Current research is aimed at understanding mechanisms underlying the nucleation and growth of various 2D materials, such as graphene, hexagonal boron nitride (hBN), and transition metal dichalcogenides (e.g., MoS\u2082/WSe\u2082). Herein, we survey the vast literature regarding modeling and simulation of the CVD growth of 2D materials and their heterostructures. We also focus on newer materials, such as silicene, phosphorene, and borophene. We discuss how density functional theory, kinetic Monte Carlo, and reactive molecular dynamics simulations can shed light on the thermodynamics and kinetics of vapor-phase synthesis. We explain how machine learning can be used to develop insights into growth mechanisms and outcomes, as well as outline the open knowledge gaps in the literature. Our work provides consolidated theoretical insights into the CVD growth of 2D materials and presents opportunities for further understanding and improving such processes."
       }
     ],
     "Bachelors": [
       {
-        "title": "Research Paper Title 1",
-        "authors": "Gabriel S.Gusmão, Adhika P. Retnanto, Shashwati C. daCunha, Andrew J. Medford; Cat. Today (2022)",
-        "doi": "10.1016/j.cattod.2022.04.002",
-        "link": "https://example.com/paper1",
-        "image": "publication1.jpg",
-        "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
-      },
-      {
-        "title": "Research Paper Title 1",
-        "authors": "Gabriel S.Gusmão, Adhika P. Retnanto, Shashwati C. daCunha, Andrew J. Medford; Cat. Today (2022)",
-        "doi": "10.1016/j.cattod.2022.04.002",
-        "link": "https://example.com/paper1",
-        "image": "publication1.jpg",
-        "abstract": "Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data."
+        "title": "Batch adsorption of indigo carmine on activated carbon prepared from sawdust: A comparative study and optimization of operating conditions using Response Surface Methodology",
+        "authors": "Sayan Bhowmik, Vijoyeta Chakraborty, Papita Das; Results in Surfaces and Interfaces (2021)",
+        "doi": "https://doi.org/10.1016/j.rsurfi.2021.100011",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2666845921000106",
+        "image": "rsm_adsorption_btech.jpg",
+        "abstract": "Raw sawdust was used to prepare two chemically activated carbon — one after treating with Ortho-phosphoric acid and another using sodium hydroxide. The adsorbents thus prepared were used to study indigo carmine removal under batch mode. The adsorbents were thus characterized and compared using the results. The isotherm models were employed to test the adsorption isotherm data. The Langmuir model showed the best fit among the models for both of the adsorbents. The pseudo-second-order model characterized the kinetic behaviour for both of the adsorbents. The thermodynamic results implied that the process was exothermic. The activated carbon prepared after activation with Orthophosphoric acid gave better removal than the one activated with Sodium Hydroxide; hence a Fourier Transform Infrared (FT-IR) spectroscopy was performed. Further, a Response Surface Methodology Optimization of the operating conditions was done using it as the adsorbent."
       }
     ]
   }

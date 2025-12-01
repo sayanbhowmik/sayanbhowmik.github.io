@@ -3,34 +3,37 @@
         "image": "banner3.jpg"
     },
     "introduction": {
-        "content": "Welcome to my portfolio! I'm Sayan Bhowmik, a passionate developer with expertise in web development, data science, and machine learning. Explore my projects and skills showcased here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "content": ["I am a chemical engineer by training, with a passion for advancing the fundamental understanding of materials at the atomic scale. My fascination with atoms began in high school and guided my academic journey. I graduated with an undergraduate degree in Chemical Engineering from Jadavpur University, Kolkata, India — home to the oldest chemical engineering department in Asia — where I also gained valuable experience in experimental research. After clearing the GATE examination, I pursued a master’s degree at the Indian Institute of Science (IISc), Bengaluru.",
+                    "As fate would have it, during my time at IISc, I was reintroduced to the world of atoms and computer simulations. This dormant interest was reignited, drawing me back to the fascinating world of atomic-scale science. Under the guidance of Dr. Ananth Govind Rajan in the Department of Chemical Engineering at IISc, I worked on predicting nanopore shapes in 2D materials using ab initio methods. Since then, I have actively pursued research in electronic structure theory-based methods and their applications to solve scientific problems.",
+                    "Currently, I am a doctoral candidate in the School of Chemical and Biomolecular Engineering at the Georgia Institute of Technology, Atlanta, USA. I am keenly interested in atomistic simulations and in modeling and simulation of materials. I collaborate with two research groups: the Material Physics & Mechanics Group led by Dr. Phanish Suryanarayana, and the Medford Group led by Dr. Andrew J. Medford, who both serve as my PhD advisors. As part of this work, I contribute to the development of SPARC, an open-source density functional theory code led by Dr. Suryanarayana, which allows me to connect theory, algorithms, and practical applications.",
+                    "My work bridges practical applications with a rigorous dive into the foundations of electronic structure methods, helping to push the boundaries of computational materials science. Beyond research, I have always loved mathematics and enjoy solving challenging problems. My hobbies include reading and painting; although I am not an avid reader, I love getting lost in storybooks. I began painting more regularly during my time at IISc, which has become a wonderful way to spend weekends and holidays. I also love to travel, explore new places, and experience diverse cultures."],
         "image": "profile-picture.jpeg"
     },
     "researchAreas": {
         "areas": [
             {
-                "title": "Web Development",
+                "title": "Computational Catalysis",
                 "image": "web-development.jpeg"
             },
             {
-                "title": "Data Science",
+                "title": "Electronic Structure Method Development",
                 "image": "data-science.jpg"
             },
             {
-                "title": "Machine Learning",
+                "title": "Defects in Materials",
                 "image": "machine-learning.jpg"
             }
         ]
     },
     "quote": {
-        "text": "The only way to do great work is to love what you do.",
-        "author": "Steve Jobs"
+        "text": "If you want to shine like a sun, first burn like a sun.",
+        "author": "A. P. J. Abdul Kalam"
     },
     "contact": {
         "logo": "gatech-logo.png.webp",
         "info": {
-            "email": "sayanb@chbe.gatech.edu",
-            "phone": "+1 (123) 456-7890",
+            "email": "sbhowmik9@gatech.edu",
+            "phone": "+1 (999) 999-9999",
             "address": "Ford ES&T Building, 311 Ferst Drive NW Atlanta, GA 30332"
         }
     }

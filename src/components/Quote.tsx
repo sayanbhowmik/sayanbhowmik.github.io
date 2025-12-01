@@ -22,7 +22,7 @@ const Quote = ({ quote, author }: QuoteProps) => {
                     variant="h2"
                     sx={{
                         // maxWidth: "300px",
-                        maxWidth: "20ch",
+                        maxWidth: "30ch",
                         width: "100%",
                     }}
                 >

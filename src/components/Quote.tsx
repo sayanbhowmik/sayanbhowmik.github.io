@@ -21,7 +21,8 @@ const Quote = ({ quote, author }: QuoteProps) => {
                 <Typography
                     variant="h2"
                     sx={{
-                        maxWidth: "300px",
+                        // maxWidth: "300px",
+                        maxWidth: "20ch",
                         width: "100%",
                     }}
                 >

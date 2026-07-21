@@ -14,6 +14,8 @@ export default function Home() {
         sx={{
           display: "flex",
           justifyContent: "center", // Center horizontally
+          width: "100%",        // add this
+          overflow: "hidden",   // add this
         }}
         id="home"
       >

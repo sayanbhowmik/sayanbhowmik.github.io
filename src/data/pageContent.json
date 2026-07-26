@@ -13,15 +13,15 @@
         "areas": [
             {
                 "title": "Computational Catalysis",
-                "image": "web-development.jpeg"
+                "image": "catal_logo.jpg"
             },
             {
-                "title": "Electronic Structure Method Development",
-                "image": "data-science.jpg"
+                "title": "Electronic Structure Methods",
+                "image": "method_logo.jpg"
             },
             {
                 "title": "Defects in Materials",
-                "image": "machine-learning.jpg"
+                "image": "defect_logo.jpg"
             }
         ]
     },

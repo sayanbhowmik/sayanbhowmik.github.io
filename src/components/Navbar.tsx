@@ -1,13 +1,12 @@
 import React from "react";
-import { useTheme } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
+import Box from "@mui/material/Box";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import useMediaQuery from "@mui/material/useMediaQuery";
 import MenuIcon from "@mui/icons-material/Menu";
 import navbarContent from "@/data/navbarContent.json";
 
@@ -17,8 +16,6 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = () => {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-    const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
     const handleMenuClick = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorEl(event.currentTarget);
@@ -67,33 +64,47 @@ const Navbar: React.FC<NavbarProps> = () => {
                         Sayan Bhowmik
                     </Typography>
 
+                    {/*
+                        Both the desktop button row and the mobile menu icon
+                        are always rendered; which one is visible is decided
+                        purely by CSS (via the `display` breakpoints below),
+                        not JS. This site is a static export, so there's no
+                        real viewport to check at build time — a JS-only
+                        (e.g. useMediaQuery) mobile/desktop switch would
+                        always bake in the desktop version at build time and
+                        only correct itself after the client JS hydrates,
+                        which looks broken on a phone until that finishes.
+                    */}
+
                     {/* Desktop Menu */}
-                    {!isMobile && (
-                        <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
-                            {navMenu.map((label, index) => (
-                                <Button
-                                    key={index}
-                                    color="primary"
-                                    href={`${label.path}`}
-                                    sx={{ fontSize: "1.05rem" }}
-                                >
-                                    {label.name}
-                                </Button>
-                            ))}
-                        </div>
-                    )}
+                    <Box
+                        sx={{
+                            display: { xs: "none", sm: "flex" },
+                            flex: 1,
+                            justifyContent: "center",
+                        }}
+                    >
+                        {navMenu.map((label, index) => (
+                            <Button
+                                key={index}
+                                color="primary"
+                                href={`${label.path}`}
+                                sx={{ fontSize: "1.05rem" }}
+                            >
+                                {label.name}
+                            </Button>
+                        ))}
+                    </Box>
 
                     {/* Mobile Menu Icon */}
-                    {isMobile && (
-                        <IconButton
-                            sx={{ color: "#a3492f" }}
-                            onClick={handleMenuClick}
-                        >
-                            <MenuIcon />
-                        </IconButton>
-                    )}
+                    <IconButton
+                        sx={{ display: { xs: "inline-flex", sm: "none" }, color: "#a3492f" }}
+                        onClick={handleMenuClick}
+                    >
+                        <MenuIcon />
+                    </IconButton>
 
-                    {/* Mobile Menu Drawer */}
+                    {/* Mobile Menu Dropdown */}
                     <Menu
                         anchorEl={anchorEl}
                         open={Boolean(anchorEl)}

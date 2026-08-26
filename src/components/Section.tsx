@@ -20,6 +20,9 @@ const Section: React.FC<SectionProps> = ({ title, children, id }) => {
                     alignItems: "center",
                     justifyContent: "center",
                     padding: 2,
+                    // Keeps the section title visible below the fixed navbar
+                    // when scrolled to via an anchor link (e.g. #contact).
+                    scrollMarginTop: "80px",
                 }}
                 id={id}
             >

@@ -29,10 +29,13 @@ const theme = createTheme({
 
     palette: {
         primary: {
-            main: "#204f5e", // Your custom color
+            main: "#a3492f", // Terracotta
         },
         secondary: {
-            main: "#dc004e",
+            main: "#c98a2c", // Warm ochre
+        },
+        background: {
+            default: "#faf6f0", // Warm ivory
         },
     },
     typography: {
@@ -40,17 +43,11 @@ const theme = createTheme({
         subtitle2: {
             fontWeight: "bold", // Bold (you can use a number or string like 'bold')
             fontStyle: "italic",
-            color: "#01172cff"
+            color: "#a3492f"
         },
         subtitle1: {
             fontWeight: 600, // Bold (you can use a number or string like 'bold')
             textTransform: "uppercase",
-        },
-        h2: {
-            fontWeight: 600,
-            textTransform: "small-caps",
-            fontFamily: '"Lora", serif',
-            fontStyle: "italic"
         },
         h4: {
             fontWeight: 600,
@@ -60,10 +57,10 @@ const theme = createTheme({
         },
         h5: {
             fontWeight: 500, // Bold (you can use a number or string like 'bold')
-            color: "#012546ff",
+            color: "#4a2f1f",
         },
         allVariants: {
-            color: "#204f5e",
+            color: "#3a2a20",
         },
     },
 });

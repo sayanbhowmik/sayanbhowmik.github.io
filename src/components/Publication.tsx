@@ -36,7 +36,8 @@ const Publication = ({ publication }: PublicationProps) => {
                         src={`/images/publications/${publication.image}`}
                         alt="Publication"
                         sx={{
-                            width: 300,
+                            width: { xs: "100%", md: 300 },
+                            maxWidth: 300,
                             height: "auto",
                             borderRadius: 2,
                             objectFit: "cover",

@@ -33,6 +33,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# personal reference files, not meant to be published to the repo
+public/CV/academic.tex
+
 # vercel
 .vercel
 

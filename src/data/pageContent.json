@@ -3,32 +3,85 @@
         "image": "New_TOC.jpg"
     },
     "introduction": {
-        "content": ["I am a chemical engineer by training, with a passion for advancing the fundamental understanding of materials at the atomic scale. My fascination with atoms began in high school and guided my academic journey. I graduated with an undergraduate degree in Chemical Engineering from Jadavpur University, Kolkata, India — home to the oldest chemical engineering department in Asia — where I also gained valuable experience in experimental research. After clearing the GATE examination, I pursued a master’s degree at the Indian Institute of Science (IISc), Bengaluru.\n",
+        "content": ["I am a chemical engineer by training, with a passion for advancing the fundamental understanding of materials at the atomic scale. My fascination with atoms began in high school and guided my academic journey. I graduated with an undergraduate degree in Chemical Engineering from Jadavpur University, Kolkata, India (home to the oldest chemical engineering department in Asia), where I also gained valuable experience in experimental research. After clearing the GATE examination, I pursued a master’s degree at the Indian Institute of Science (IISc), Bengaluru.\n",
                     "As fate would have it, during my time at IISc, I was reintroduced to the world of atoms and computer simulations. This dormant interest was reignited, drawing me back to the fascinating world of atomic-scale science. Under the guidance of Dr. Ananth Govind Rajan in the Department of Chemical Engineering at IISc, I worked on predicting nanopore shapes in 2D materials using ab initio methods. Since then, I have actively pursued research in electronic structure theory-based methods and their applications to solve scientific problems.\n",
                     "Currently, I am a doctoral candidate in the School of Chemical and Biomolecular Engineering at the Georgia Institute of Technology, Atlanta, USA. I am keenly interested in atomistic simulations and in modeling and simulation of materials. I collaborate with two research groups: the Material Physics & Mechanics Group led by Dr. Phanish Suryanarayana, and the Medford Group led by Dr. Andrew J. Medford, who both serve as my PhD advisors. As part of this work, I contribute to the development of SPARC, an open-source density functional theory code led by Dr. Suryanarayana, which allows me to connect theory, algorithms, and practical applications.\n",
-                    "My work bridges practical applications with a rigorous dive into the foundations of electronic structure methods, helping to push the boundaries of computational materials science. Beyond research, I have always loved mathematics and enjoy solving challenging problems. My hobbies include reading and painting; although I am not an avid reader, I love getting lost in storybooks. I began painting more regularly during my time at IISc, which has become a wonderful way to spend weekends and holidays. I also love to travel, explore new places, and experience diverse cultures."],
+                    "My work bridges practical applications with a rigorous dive into the foundations of electronic structure methods, helping to push the boundaries of computational materials science. Beyond research, I have always loved mathematics and enjoy solving challenging problems. My hobbies include reading and painting; although I am not an avid reader, I love getting lost in storybooks, and painting has become a wonderful way to spend my weekends and holidays. I also love to travel, explore new places, and experience diverse cultures."],
         "image": "profile-picture.jpeg"
     },
     "researchAreas": {
         "areas": [
             {
+                "id": "computational-catalysis",
                 "title": "Computational Catalysis",
-                "image": "catal_logo.jpg"
+                "image": "catal_logo.jpg",
+                "description": "My current work focuses on developing accurate and efficient density functional theory (DFT) methods for modeling catalytic and electrochemical surfaces. Real surfaces are semi-infinite: a finite slab of atoms sitting on top of an effectively infinite bulk material, but standard DFT calculations require truncating this bulk into a finite, periodic simulation cell, which can introduce artificial finite-size effects and spurious interactions between periodic images. To address this, I am developing a bulk boundary condition formalism that exploits the nearsightedness of electronic interactions, confining the expensive part of the calculation to a localized surface region while rigorously imposing bulk electronic and electrostatic behavior in the interior. This approach enables accurate, efficient prediction of surface and adsorption energies relevant to catalytic reactions.",
+                "relatedPublicationDois": [
+                    "https://doi.org/10.48550/arXiv.2607.07894"
+                ]
             },
             {
+                "id": "electronic-structure-methods",
                 "title": "Electronic Structure Methods",
-                "image": "method_logo.jpg"
+                "image": "method_logo.jpg",
+                "description": "Alongside applying DFT to specific materials problems, I develop and extend the underlying numerical methods that make large-scale, real-space electronic structure calculations possible, primarily within the SPARC electronic structure code. This includes a real-space formulation of Hubbard-corrected DFT (DFT+U), where I derived expressions for the energy, atomic forces, and stress tensor compatible with finite-difference discretization and built a large-scale parallel implementation that outperforms established plane-wave codes by more than an order of magnitude in time to solution. To support this and other DFT+U calculations, I developed a spectral solver for isolated atoms that achieves sub-microhartree eigenvalue accuracy, used to generate exchange-correlation-consistent atomic orbital projectors. My bulk boundary condition formalism for semi-infinite surfaces, described above, is also fundamentally a methods contribution: a new way of imposing boundary conditions in real-space DFT that keeps large surface calculations tractable.",
+                "relatedPublicationDois": [
+                    "https://doi.org/10.48550/arXiv.2607.07894",
+                    "https://doi.org/10.1063/5.0293995",
+                    "https://doi.org/10.1016/j.cpc.2024.109448"
+                ]
             },
             {
+                "id": "defects-in-materials",
                 "title": "Defects in Materials",
-                "image": "defect_logo.jpg"
+                "image": "defect_logo.jpg",
+                "description": "Before focusing on surface and method development, my research centered on understanding how defects form and evolve in materials, from bulk metals to two-dimensional semiconductors. In aluminum, I used DFT calculations to study how hydrostatic strain drives the clustering of vacancies, showing that compressive strain is a key factor in the collapse of vacancy clusters into prismatic dislocation loops on the (111) plane, consistent with experimental observations. In two-dimensional molybdenum disulfide (MoS2), I investigated how nanopores nucleate and grow during synthesis, combining DFT-calculated etching energies with Marcus theory, kinetic Monte Carlo simulations, and chemical graph theory. This work traced the atomic-scale etching mechanisms responsible for pore nucleation and showed how the surrounding chemical environment can be tuned to control pore geometry and size, from irregular shapes to nearly perfect triangles, offering a route to engineer nanopores for applications like desalination and DNA sequencing.",
+                "relatedPublicationDois": [
+                    "https://doi.org/10.1103/97k3-sfyw",
+                    "https://doi.org/10.1002/smll.202504611",
+                    "https://doi.org/10.1021/acs.jpcc.2c08622"
+                ]
             }
         ]
     },
-    "quote": {
-        "text": "If you want to shine like a sun, first burn like a sun.",
-        "author": "A. P. J. Abdul Kalam"
-    },
+    "awards": [
+        {
+            "title": "Eckert Graduate Fellowship",
+            "org": "Georgia Tech",
+            "year": "2026",
+            "description": "Awarded for research accomplishments."
+        },
+        {
+            "title": "Best Online TA Award",
+            "org": "Georgia Tech",
+            "year": "2026",
+            "description": "Exemplary performance as online TA."
+        },
+        {
+            "title": "Shell Outstanding TA Award",
+            "org": "Georgia Tech",
+            "year": "2024",
+            "description": "Exemplary performance in core engineering instruction."
+        },
+        {
+            "title": "Best PhD Qualifying Exam Award",
+            "org": "Georgia Tech",
+            "year": "2023",
+            "description": "Top student in cohort."
+        },
+        {
+            "title": "Exemplary Academic Achievement Award",
+            "org": "Georgia Tech",
+            "year": "2023",
+            "description": "Perfect 4.0/4.0 semester GPA in graduate core coursework."
+        },
+        {
+            "title": "Prof. N. R. Kuloor Memorial Award",
+            "org": "IISc",
+            "year": "2022",
+            "description": "Best M.Tech graduate in Chemical Engineering."
+        }
+    ],
     "contact": {
         "logo": "gatech-logo.png.webp",
         "info": {

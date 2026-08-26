@@ -34,7 +34,14 @@ const Navbar: React.FC<NavbarProps> = () => {
         <>
             <AppBar
                 position="fixed"
-                style={{ backgroundColor: "#ffffffff", boxShadow: "none", paddingLeft: 100 }}
+                sx={{
+                    backgroundColor: "#faf6f0",
+                    boxShadow: "none",
+                    // The generous left gutter is a desktop-only flourish;
+                    // on narrow screens it was eating into the space the
+                    // logo and menu icon need, so it only kicks in at md+.
+                    paddingLeft: { xs: 0, md: "100px" },
+                }}
             >
                 <Toolbar
                     style={{
@@ -46,11 +53,15 @@ const Navbar: React.FC<NavbarProps> = () => {
                     {/* Logo */}
                     <Typography
                         variant="h6"
-                        style={{
-                            color: "#1f5a75ff",
-                            minWidth: "200px",
-                            fontFamily: "Kaushan Script, cursive",
-                            fontWeight: "bold"
+                        component="a"
+                        href="/#home"
+                        sx={{
+                            color: "#a3492f",
+                            minWidth: { xs: "auto", sm: "200px" },
+                            fontFamily: "'Playfair Display', Georgia, serif",
+                            fontWeight: 700,
+                            fontSize: { xs: "1.15rem", sm: "1.5rem", md: "1.75rem" },
+                            textDecoration: "none",
                         }}
                     >
                         Sayan Bhowmik
@@ -60,7 +71,12 @@ const Navbar: React.FC<NavbarProps> = () => {
                     {!isMobile && (
                         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
                             {navMenu.map((label, index) => (
-                                <Button key={index} color="primary" href={`${label.path}`}>
+                                <Button
+                                    key={index}
+                                    color="primary"
+                                    href={`${label.path}`}
+                                    sx={{ fontSize: "1.05rem" }}
+                                >
                                     {label.name}
                                 </Button>
                             ))}
@@ -70,7 +86,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                     {/* Mobile Menu Icon */}
                     {isMobile && (
                         <IconButton
-                            sx={{ color: "#1f5a75ff" }}
+                            sx={{ color: "#a3492f" }}
                             onClick={handleMenuClick}
                         >
                             <MenuIcon />
@@ -89,6 +105,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                                 onClick={handleMenuClose}
                                 component="a"
                                 href={`${label.path}`}
+                                sx={{ fontSize: "1.05rem" }}
                             >
                                 {label.name}
                             </MenuItem>

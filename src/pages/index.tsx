@@ -3,7 +3,7 @@ import Stack from "@mui/material/Stack";
 import Section from "@/components/Section";
 import Introduction from "@/sections/Introduction";
 import ResearchAreas from "@/sections/ResearchAreas";
-import Quote from "@/components/Quote";
+import Awards from "@/sections/Awards";
 import TopBanner from "@/components/TopBanner";
 import pageContent from "@/data/pageContent.json";
 
@@ -19,7 +19,7 @@ export default function Home() {
         }}
         id="home"
       >
-        <TopBanner image={pageContent.banner.image} height={600} />
+        <TopBanner image={pageContent.banner.image} />
         <Section title="Introduction" id="introduction">
           <Introduction />
         </Section>
@@ -28,11 +28,8 @@ export default function Home() {
           <ResearchAreas />
         </Section>
 
-        <Section title="" id="">
-          <Quote
-            quote={pageContent.quote.text}
-            author={pageContent.quote.author}
-          />
+        <Section title="Awards" id="awards">
+          <Awards />
         </Section>
       </Stack>
     </>

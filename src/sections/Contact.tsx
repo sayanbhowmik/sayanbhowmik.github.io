@@ -18,6 +18,10 @@ const iconMap: Record<string, React.ReactNode> = {
 const Contact = () => {
     const contactInfo = pageContent.contact.info;
 
+    // Phone and address are placeholders for now, so remove this filter
+    // once pageContent.json's contact.info has real values for them.
+    const visibleContactKeys = ["email"];
+
     return (
         <>
             <Divider
@@ -31,13 +35,16 @@ const Contact = () => {
                     src={`/images/${pageContent.contact.logo}`}
                     alt="GA Tech Logo"
                     sx={{
-                        width: 300,
+                        width: "100%",
+                        maxWidth: 300,
                         height: "auto",
                         borderRadius: 2,
                     }}
                 />
                 <Stack spacing={1} alignItems={"center"}>
-                    {Object.entries(contactInfo).map(([key, value]) => (
+                    {Object.entries(contactInfo)
+                        .filter(([key]) => visibleContactKeys.includes(key))
+                        .map(([key, value]) => (
                         <Stack
                             key={key}
                             direction="row"

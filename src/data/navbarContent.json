@@ -1,7 +1,8 @@
 {
   "items": [
     { "name": "Home", "path": "/#home" },
-    { "name": "Contact", "path": "#contact" },
-    { "name": "Publications", "path": "/publications" }
+    { "name": "Research", "path": "/research" },
+    { "name": "Publications", "path": "/publications" },
+    { "name": "Contact", "path": "#contact" }
   ]
 }

@@ -7,7 +7,7 @@
                     "As fate would have it, during my time at IISc, I was reintroduced to the world of atoms and computer simulations. This dormant interest was reignited, drawing me back to the fascinating world of atomic-scale science. Under the guidance of Dr. Ananth Govind Rajan in the Department of Chemical Engineering at IISc, I worked on predicting nanopore shapes in 2D materials using ab initio methods. Since then, I have actively pursued research in electronic structure theory-based methods and their applications to solve scientific problems.\n",
                     "Currently, I am a doctoral candidate in the School of Chemical and Biomolecular Engineering at the Georgia Institute of Technology, Atlanta, USA. I am keenly interested in atomistic simulations and in modeling and simulation of materials. I collaborate with two research groups: the Material Physics & Mechanics Group led by Dr. Phanish Suryanarayana, and the Medford Group led by Dr. Andrew J. Medford, who both serve as my PhD advisors. As part of this work, I contribute to the development of SPARC, an open-source density functional theory code led by Dr. Suryanarayana, which allows me to connect theory, algorithms, and practical applications.\n",
                     "My work bridges practical applications with a rigorous dive into the foundations of electronic structure methods, helping to push the boundaries of computational materials science. Beyond research, I have always loved mathematics and enjoy solving challenging problems. My hobbies include reading and painting; although I am not an avid reader, I love getting lost in storybooks, and painting has become a wonderful way to spend my weekends and holidays. I also love to travel, explore new places, and experience diverse cultures."],
-        "image": "profile-picture.jpeg"
+        "image": "Headshot_Sayan_01.jpeg"
     },
     "researchAreas": {
         "areas": [
@@ -45,6 +45,12 @@
         ]
     },
     "awards": [
+        {
+            "title": "CRE Travel Award",
+            "org": "AIChE, CRE Division",
+            "year": "2026",
+            "description": "Awarded to conference presenters in recognition of exceptional individuals who have made significant advancements in the field."
+        },
         {
             "title": "Eckert Graduate Fellowship",
             "org": "Georgia Tech",

@@ -3,6 +3,7 @@
     { "name": "Home", "path": "/#home" },
     { "name": "Research", "path": "/research" },
     { "name": "Publications", "path": "/publications" },
+    { "name": "Teaching", "path": "/teaching" },
     { "name": "Contact", "path": "#contact" }
   ]
 }

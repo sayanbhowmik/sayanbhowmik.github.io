@@ -35,6 +35,7 @@ yarn-error.log*
 
 # personal reference files, not meant to be published to the repo
 public/CV/academic.tex
+public/Teaching/GT/CIOS
 
 # vercel
 .vercel

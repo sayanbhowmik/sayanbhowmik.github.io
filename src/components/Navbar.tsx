@@ -77,9 +77,15 @@ const Navbar: React.FC<NavbarProps> = () => {
                     */}
 
                     {/* Desktop Menu */}
+                    {/*
+                        Switches on at md (900px), not sm (600px): with five
+                        nav items the button row needs more room than a
+                        600-680px phone-landscape/small-tablet width gives
+                        it, and the row would clip the last item there.
+                    */}
                     <Box
                         sx={{
-                            display: { xs: "none", sm: "flex" },
+                            display: { xs: "none", md: "flex" },
                             flex: 1,
                             justifyContent: "center",
                         }}
@@ -98,7 +104,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 
                     {/* Mobile Menu Icon */}
                     <IconButton
-                        sx={{ display: { xs: "inline-flex", sm: "none" }, color: "#a3492f" }}
+                        sx={{ display: { xs: "inline-flex", md: "none" }, color: "#a3492f" }}
                         onClick={handleMenuClick}
                     >
                         <MenuIcon />

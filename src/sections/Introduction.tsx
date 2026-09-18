@@ -9,10 +9,11 @@ const Introduction = () => {
     return (
         <>
             <Stack spacing={4} direction={{
-                xs: "column",   // mobile → vertical
-                sm: "row",      // tablet → horizontal
+                xs: "column",   // phones → vertical
+                sm: "column",   // phones (landscape) / small tablets → still vertical;
+                                // side-by-side needs more width than this to breathe
                 md: "row",      // desktop → horizontal
-            }} alignItems={"center"}>
+            }} alignItems={{ xs: "center", sm: "center", md: "flex-start" }}>
                 <CircularImage
                     src={`/images/${pageContent.introduction.image}`}
                     alt="Profile Picture"

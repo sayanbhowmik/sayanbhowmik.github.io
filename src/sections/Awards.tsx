@@ -23,7 +23,6 @@ const Awards = () => {
                                 <strong>{award.title}</strong>, {award.org} ({award.year})
                             </Typography>
                         }
-                        secondary={award.description}
                     />
                 </ListItem>
             ))}

@@ -48,44 +48,37 @@
         {
             "title": "CRE Travel Award",
             "org": "AIChE, CRE Division",
-            "year": "2026",
-            "description": "Awarded to conference presenters in recognition of exceptional individuals who have made significant advancements in the field."
+            "year": "2026"
         },
         {
             "title": "Eckert Graduate Fellowship",
             "org": "Georgia Tech",
-            "year": "2026",
-            "description": "Awarded for research accomplishments."
+            "year": "2026"
         },
         {
             "title": "Best Online TA Award",
             "org": "Georgia Tech",
-            "year": "2026",
-            "description": "Exemplary performance as online TA."
+            "year": "2026"
         },
         {
             "title": "Shell Outstanding TA Award",
             "org": "Georgia Tech",
-            "year": "2024",
-            "description": "Exemplary performance in core engineering instruction."
+            "year": "2024"
         },
         {
             "title": "Best PhD Qualifying Exam Award",
             "org": "Georgia Tech",
-            "year": "2023",
-            "description": "Top student in cohort."
+            "year": "2023"
         },
         {
             "title": "Exemplary Academic Achievement Award",
             "org": "Georgia Tech",
-            "year": "2023",
-            "description": "Perfect 4.0/4.0 semester GPA in graduate core coursework."
+            "year": "2023"
         },
         {
             "title": "Prof. N. R. Kuloor Memorial Award",
             "org": "IISc",
-            "year": "2022",
-            "description": "Best M.Tech graduate in Chemical Engineering."
+            "year": "2022"
         }
     ],
     "contact": {

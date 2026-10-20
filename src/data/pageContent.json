@@ -17,7 +17,7 @@
                 "image": "catal_logo.jpg",
                 "description": "My current work focuses on developing accurate and efficient density functional theory (DFT) methods for modeling catalytic and electrochemical surfaces. Real surfaces are semi-infinite: a finite slab of atoms sitting on top of an effectively infinite bulk material, but standard DFT calculations require truncating this bulk into a finite, periodic simulation cell, which can introduce artificial finite-size effects and spurious interactions between periodic images. To address this, I am developing a bulk boundary condition formalism that exploits the nearsightedness of electronic interactions, confining the expensive part of the calculation to a localized surface region while rigorously imposing bulk electronic and electrostatic behavior in the interior. This approach enables accurate, efficient prediction of surface and adsorption energies relevant to catalytic reactions.",
                 "relatedPublicationDois": [
-                    "https://doi.org/10.48550/arXiv.2607.07894"
+                    "https://doi.org/10.1021/acs.jctc.6c01550"
                 ]
             },
             {
@@ -26,7 +26,7 @@
                 "image": "method_logo.jpg",
                 "description": "Alongside applying DFT to specific materials problems, I develop and extend the underlying numerical methods that make large-scale, real-space electronic structure calculations possible, primarily within the SPARC electronic structure code. This includes a real-space formulation of Hubbard-corrected DFT (DFT+U), where I derived expressions for the energy, atomic forces, and stress tensor compatible with finite-difference discretization and built a large-scale parallel implementation that outperforms established plane-wave codes by more than an order of magnitude in time to solution. To support this and other DFT+U calculations, I developed a spectral solver for isolated atoms that achieves sub-microhartree eigenvalue accuracy, used to generate exchange-correlation-consistent atomic orbital projectors. My bulk boundary condition formalism for semi-infinite surfaces, described above, is also fundamentally a methods contribution: a new way of imposing boundary conditions in real-space DFT that keeps large surface calculations tractable.",
                 "relatedPublicationDois": [
-                    "https://doi.org/10.48550/arXiv.2607.07894",
+                    "https://doi.org/10.1021/acs.jctc.6c01550",
                     "https://doi.org/10.1063/5.0293995",
                     "https://doi.org/10.1016/j.cpc.2024.109448"
                 ]

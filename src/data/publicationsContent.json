@@ -3,9 +3,9 @@
     "PhD": [
       {
         "title": "Bulk Boundary Condition for Semi-Infinite Surfaces in Density Functional Theory",
-        "authors": "Sayan Bhowmik, Andrew J. Medford, Phanish Suryanarayana; arXiv preprint (2026)",
-        "doi": "https://doi.org/10.48550/arXiv.2607.07894",
-        "link": "https://doi.org/10.48550/arXiv.2607.07894",
+        "authors": "Sayan Bhowmik, Andrew J. Medford, Phanish Suryanarayana; J. Chem. Theory Comput. (2026)",
+        "doi": "https://doi.org/10.1021/acs.jctc.6c01550",
+        "link": "https://doi.org/10.1021/acs.jctc.6c01550",
         "image": "Bulk-BC-Method-Letter.png",
         "role": "Lead author",
         "abstract": "We present a bulk boundary condition formalism for semi-infinite surfaces in Kohn–Sham density functional theory. The approach exploits the nearsightedness of electronic interactions to confine the calculation to a localized surface region, where the electron density is evaluated via density matrix decay with bulk values of potential imposed in the interior, and the electrostatic potential is solved subject to bulk boundary conditions. We demonstrate the accuracy and efficiency of the formalism through representative calculations."

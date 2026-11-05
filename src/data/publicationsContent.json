@@ -2,6 +2,15 @@
   "publications": {
     "PhD": [
       {
+        "title": "On-the-fly Δ-Machine Learned Force Fields for Warm Dense Matter Using a Yukawa Reference Model: Application to Magnesium",
+        "authors": "Sayan Bhowmik, John E. Pask, Phanish Suryanarayana; arXiv:2611.00170 (2026), submitted to Physics of Plasmas",
+        "doi": "https://doi.org/10.48550/arXiv.2611.00170",
+        "link": "https://arxiv.org/abs/2611.00170",
+        "image": "Delta-MLFF-WDM.png",
+        "role": "Lead author",
+        "abstract": "We develop a framework for on-the-fly Δ-machine learned force field (Δ-MLFF) molecular dynamics (MD) simulations of warm dense matter (WDM). In particular, we employ a Yukawa reference model that captures the dominant screened-Coulomb interactions between the ions, with its parameters fit on the fly to Kohn–Sham density functional theory (DFT) data, and an MLFF scheme based on the kernel method and Bayesian linear regression that learns the differences in the energies, atomic forces, and stresses between the Yukawa model and Kohn–Sham DFT. We verify the accuracy and performance of the formalism by comparing the predicted properties of warm dense carbon with Kohn–Sham DFT results in the literature. In so doing, we demonstrate that Δ-MLFF has significantly lower errors in the energies, atomic forces, and stresses than the standard MLFF scheme at a comparable cost, while accelerating ab initio MD simulations by up to three orders of magnitude. We apply this framework to calculate the equation of state, structure, and transport properties of magnesium at densities of 5.22 to 10.44 g/cm³ and temperatures of 600 kK to 1.5 MK. We find that the pressure, self-diffusion coefficient, and shear viscosity obey power laws in temperature and density, that the dynamic structure factor exhibits a well-defined ion-acoustic mode whose negative dispersion is characteristic of strongly coupled liquids, and that the Stokes–Einstein relation holds to within 10% over the conditions considered."
+      },
+      {
         "title": "Bulk Boundary Condition for Semi-Infinite Surfaces in Density Functional Theory",
         "authors": "Sayan Bhowmik, Andrew J. Medford, Phanish Suryanarayana; J. Chem. Theory Comput. (2026)",
         "doi": "https://doi.org/10.1021/acs.jctc.6c01550",

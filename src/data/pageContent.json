@@ -3,10 +3,10 @@
         "image": "New_TOC.jpg"
     },
     "introduction": {
-        "content": ["I am a chemical engineer by training, with a passion for advancing the fundamental understanding of materials at the atomic scale. My fascination with atoms began in high school and guided my academic journey. I graduated with an undergraduate degree in Chemical Engineering from Jadavpur University, Kolkata, India (home to the oldest chemical engineering department in Asia), where I also gained valuable experience in experimental research. After clearing the GATE examination, I pursued a master’s degree at the Indian Institute of Science (IISc), Bengaluru.\n",
+        "content": ["I am a chemical engineer by training, with a passion for advancing the fundamental understanding of materials at the atomic scale. My fascination with atoms began in high school and guided my academic journey. I graduated with an undergraduate degree in Chemical Engineering from Jadavpur University, Kolkata, India (home to the oldest chemical engineering department in Asia), where I also gained valuable experience in experimental research. Subsequently, I pursued a master’s degree at the Indian Institute of Science (IISc), Bengaluru.\n",
                     "As fate would have it, during my time at IISc, I was reintroduced to the world of atoms and computer simulations. This dormant interest was reignited, drawing me back to the fascinating world of atomic-scale science. Under the guidance of Dr. Ananth Govind Rajan in the Department of Chemical Engineering at IISc, I worked on predicting nanopore shapes in 2D materials using ab initio methods. Since then, I have actively pursued research in electronic structure theory-based methods and their applications to solve scientific problems.\n",
                     "Currently, I am a doctoral candidate in the School of Chemical and Biomolecular Engineering at the Georgia Institute of Technology, Atlanta, USA. I am keenly interested in atomistic simulations and in modeling and simulation of materials. I collaborate with two research groups: the Material Physics & Mechanics Group led by Dr. Phanish Suryanarayana, and the Medford Group led by Dr. Andrew J. Medford, who both serve as my PhD advisors. As part of this work, I contribute to the development of SPARC, an open-source density functional theory code led by Dr. Suryanarayana, which allows me to connect theory, algorithms, and practical applications.\n",
-                    "My work bridges practical applications with a rigorous dive into the foundations of electronic structure methods, helping to push the boundaries of computational materials science. Beyond research, I have always loved mathematics and enjoy solving challenging problems. My hobbies include reading and painting; although I am not an avid reader, I love getting lost in storybooks, and painting has become a wonderful way to spend my weekends and holidays. I also love to travel, explore new places, and experience diverse cultures."],
+                    "My work bridges practical applications with a rigorous dive into the foundations of electronic structure methods, helping to push the boundaries of computational materials science. Outside of research, I have always loved mathematics and enjoy working through challenging problems. In my free time, I like getting lost in a good storybook, and painting has become my favorite way to spend weekends and holidays. I also love to travel, explore new places, and experience different cultures."],
         "image": "Headshot_Sayan_01.jpeg"
     },
     "researchAreas": {
@@ -32,6 +32,16 @@
                 ]
             },
             {
+                "id": "ml-atomistic-simulations",
+                "title": "ML for Atomistic Simulations",
+                "image": "ml_logo.png",
+                "description": "Machine-learned force fields can make ab initio molecular dynamics far cheaper, but learning the full interatomic interaction from scratch is data-hungry. I developed a Δ-machine learning approach in which a physical reference model carries the dominant interactions and the machine-learned force field learns only the correction. For warm dense matter, where the ions interact through screened electrostatics, the reference is a Yukawa pair potential whose parameters are fit on the fly to Kohn–Sham DFT, and a kernel-based force field with Bayesian linear regression learns the remaining differences in energies, forces, and stresses. Beyond improving accuracy, the Yukawa reference cures the close-approach pathology of standard machine-learned force fields, where ions that come closer than anything seen in training experience unphysical forces. This Δ-MLFF has significantly lower errors than a standard MLFF at comparable cost and accelerates ab initio MD by up to three orders of magnitude, enabling the equation of state, structure, and transport properties of magnesium to be computed at temperatures up to 1.5 MK. The same strategy extends naturally to other settings where an inexpensive physical surrogate captures the dominant interactions. In another work, we showed that the non-interacting electron density, available without self-consistent DFT, serves as a transferable descriptor for predicting the mechanical properties of refractory high-entropy alloys from only a handful of training samples.",
+                "relatedPublicationDois": [
+                    "https://doi.org/10.48550/arXiv.2611.00170",
+                    "https://doi.org/10.1039/d6dd00105j"
+                ]
+            },
+            {
                 "id": "defects-in-materials",
                 "title": "Defects in Materials",
                 "image": "defect_logo.jpg",
@@ -44,6 +54,16 @@
             }
         ]
     },
+    "funding": [
+        {
+            "institution": "Georgia Institute of Technology",
+            "title": "Bulk boundary conditions for first-principles surface calculations: Validation across metals, transition metals, semiconductors and insulators, and application to adsorption",
+            "program": "NSF ACCESS Explore Allocation CHM260162",
+            "role": "PI",
+            "amount": "200,000 ACCESS Credits",
+            "years": "2026–2027"
+        }
+    ],
     "awards": [
         {
             "title": "CRE Travel Award",

@@ -16,7 +16,7 @@ const ResearchAreas = () => {
         justifyContent={totalAreas % 3 == 2 ? "space-evenly" : "space-between"}
       >
         {researchAreas.map((area, index) => (
-          <Grid size={{ xs: 12, md: 4 }} key={index}>
+          <Grid size={{ xs: 12, md: totalAreas === 4 ? 6 : 4 }} key={index}>
             <ResearchArea area={area} />
           </Grid>
         ))}

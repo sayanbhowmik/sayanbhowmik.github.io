@@ -41,6 +41,7 @@ const ResearchArea = ({ area }: ResearchAreaProps) => {
                 <Typography
                     variant="button"
                     className="research-area-title"
+                    sx={{ textTransform: "none", fontSize: "1rem" }}
                 >
                     {area.title}
                 </Typography>

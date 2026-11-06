@@ -3,10 +3,17 @@
         "image": "New_TOC.jpg"
     },
     "introduction": {
-        "content": ["I am a chemical engineer by training, with a passion for advancing the fundamental understanding of materials at the atomic scale. My fascination with atoms began in high school and guided my academic journey. I graduated with an undergraduate degree in Chemical Engineering from Jadavpur University, Kolkata, India (home to the oldest chemical engineering department in Asia), where I also gained valuable experience in experimental research. Subsequently, I pursued a master’s degree at the Indian Institute of Science (IISc), Bengaluru.\n",
-                    "As fate would have it, during my time at IISc, I was reintroduced to the world of atoms and computer simulations. This dormant interest was reignited, drawing me back to the fascinating world of atomic-scale science. Under the guidance of Dr. Ananth Govind Rajan in the Department of Chemical Engineering at IISc, I worked on predicting nanopore shapes in 2D materials using ab initio methods. Since then, I have actively pursued research in electronic structure theory-based methods and their applications to solve scientific problems.\n",
-                    "Currently, I am a doctoral candidate in the School of Chemical and Biomolecular Engineering at the Georgia Institute of Technology, Atlanta, USA. I am keenly interested in atomistic simulations and in modeling and simulation of materials. I collaborate with two research groups: the Material Physics & Mechanics Group led by Dr. Phanish Suryanarayana, and the Medford Group led by Dr. Andrew J. Medford, who both serve as my PhD advisors. As part of this work, I contribute to the development of SPARC, an open-source density functional theory code led by Dr. Suryanarayana, which allows me to connect theory, algorithms, and practical applications.\n",
-                    "My work bridges practical applications with a rigorous dive into the foundations of electronic structure methods, helping to push the boundaries of computational materials science. Outside of research, I have always loved mathematics and enjoy working through challenging problems. In my free time, I like getting lost in a good storybook, and painting has become my favorite way to spend weekends and holidays. I also love to travel, explore new places, and experience different cultures."],
+        "content": [
+            "My interest in atoms began in high school, with the idea that the properties of materials are ultimately determined by how atoms and their electrons are arranged. My path back to that idea was not a direct one, and each step along the way has shaped my approach to research.",
+            "I trained as a chemical engineer at Jadavpur University, Kolkata, India, home to the oldest chemical engineering department in Asia, where my first research experience was experimental. I subsequently pursued a master’s degree at the Indian Institute of Science (IISc), Bengaluru, where, under the guidance of Dr. Ananth Govind Rajan, I was introduced to first-principles simulations of materials. That experience led me to pursue electronic structure theory as the focus of my career.",
+            "I am currently a doctoral candidate in the School of Chemical and Biomolecular Engineering at the Georgia Institute of Technology, Atlanta, advised by Dr. Phanish Suryanarayana and Dr. Andrew J. Medford. My research centers on developing methods for electronic structure calculations and applying them to problems in materials and chemistry, spanning the path from the mathematical foundations of a method to the questions it is designed to answer.",
+            "Outside of research, I have a long-standing interest in mathematics and enjoy working through challenging problems. In my free time, I enjoy reading stories and painting, which has become my preferred way to spend weekends and holidays. I also enjoy traveling, exploring new places, and experiencing different cultures."
+        ],
+        "position": [
+            "Ph.D. Candidate (Final Year)",
+            "School of Chemical and Biomolecular Engineering",
+            "Georgia Institute of Technology"
+        ],
         "image": "Headshot_Sayan_01.jpeg"
     },
     "researchAreas": {

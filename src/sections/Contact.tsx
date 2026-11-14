@@ -8,19 +8,40 @@ import Divider from "@mui/material/Divider";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Link from "@mui/material/Link";
 
 const iconMap: Record<string, React.ReactNode> = {
     email: <EmailIcon fontSize="small" />,
     phone: <PhoneIcon fontSize="small" />,
     address: <LocationOnIcon fontSize="small" />,
+    linkedin: <LinkedInIcon fontSize="small" />,
 };
+
+const labelMap: Record<string, string> = {
+    email: "Email",
+    phone: "Phone",
+    address: "Address",
+    linkedin: "LinkedIn",
+};
+
+// Values that should render as clickable links rather than plain text.
+const hrefFor = (key: string, value: string): string | undefined => {
+    if (key === "email") return `mailto:${value}`;
+    if (key === "linkedin") return value;
+    return undefined;
+};
+
+// Show the LinkedIn handle instead of the full URL.
+const displayFor = (key: string, value: string): string =>
+    key === "linkedin" ? value.replace(/\/$/, "").split("/").pop() ?? value : value;
 
 const Contact = () => {
     const contactInfo = pageContent.contact.info;
 
     // Phone and address are placeholders for now, so remove this filter
     // once pageContent.json's contact.info has real values for them.
-    const visibleContactKeys = ["email"];
+    const visibleContactKeys = ["email", "linkedin"];
 
     return (
         <>
@@ -54,7 +75,18 @@ const Contact = () => {
                         >
                             {iconMap[key]}
                             <Typography variant="body1">
-                                <strong>{key.charAt(0).toUpperCase() + key.slice(1)}:</strong> {value}
+                                <strong>{labelMap[key] ?? key}:</strong>{" "}
+                                {hrefFor(key, value) ? (
+                                    <Link
+                                        href={hrefFor(key, value)}
+                                        target={key === "linkedin" ? "_blank" : undefined}
+                                        rel={key === "linkedin" ? "noopener noreferrer" : undefined}
+                                    >
+                                        {displayFor(key, value)}
+                                    </Link>
+                                ) : (
+                                    value
+                                )}
                             </Typography>
                         </Stack>
                     ))}
